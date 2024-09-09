@@ -1,0 +1,23 @@
+programa {
+	
+
+funcao inicio()
+{
+	
+        //exercicio 7
+    inteiro n
+    
+    
+    escreva("Digite um numero\n")
+    leia(n)
+    
+    para (inteiro i = 1; i<n ; i++)
+    {
+        se (i % 2 != 0){
+        
+    escreva("\n Todos os Numeros impares de 1 a " + n + " sao: \n" + i)
+        }
+    }
+        
+        }
+}

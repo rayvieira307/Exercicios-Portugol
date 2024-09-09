@@ -1,0 +1,27 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro numero1, numero2
+
+        escreva("Digite um numero: ")
+        leia(numero1)
+        escreva("\nDigite outro numero: ")
+        leia(numero2)
+        soma(numero1, numero2)
+        escreva("\nFim da execução do programa.")
+        escreva("\nObrigado.")
+    }
+
+    funcao inteiro soma(inteiro numero1, inteiro numero2)
+    {
+        inteiro resultado = numero1 + numero2
+        imprimeResultado(resultado)
+        retorne resultado
+    }
+
+    funcao imprimeResultado(inteiro resultado)
+    {
+        escreva("A soma é: ", resultado)
+    }
+}

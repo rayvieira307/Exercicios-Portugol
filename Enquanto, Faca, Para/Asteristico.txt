@@ -1,0 +1,18 @@
+programa
+{
+
+    funcao inicio()
+    {
+        inteiro num
+        cadeia triangulo = ""
+
+        escreva("\t\t\t\t\tTriângulo numérico\nDigite um número: ")
+        leia (num)
+
+        para (inteiro i = 1; i <= num; i++)
+        {
+            escreva (triangulo, "\n")
+            triangulo = triangulo + '*'
+        }
+    }
+}

@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro num1, num2
+
+	     escreva ("\t\t\t\t\t\t\t\tO PRIMEIRO É MULTIPLO DO SEGUNDO\n")
+	    
+		escreva("Digite o primeiro número: ")
+		leia (num1)
+		escreva ("Digite o segundo número: ")
+		leia (num2)
+		
+		se (num1%num2 == 0) {
+               escreva ("O número ", num1, " é multiplo do ", num2)	}
+		senao {
+			escreva ("O número ", num1, " não é multiplo ", num2)	
+			}
+			}
+
+
+	
+}

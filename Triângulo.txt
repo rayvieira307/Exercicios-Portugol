@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+         inteiro A,B,C
+	     
+		escreva("Digite o valor do primeiro lado do triângulo: ")
+		leia (A)
+		  
+		escreva("Digite o valor do segundo lado do triângulo: ")
+		leia (B)
+		  
+		escreva("Digite o valor do terceiro lado do triângulo: ")
+		leia (C)
+
+		se (A+B+C == 180){
+			escreva ("É um triângulo!!")
+			}
+		senao {
+			escreva ("Não é um triângulo!!")
+			}
+	}
+}

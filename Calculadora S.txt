@@ -1,0 +1,38 @@
+programa
+{
+    
+    funcao inicio()
+    {
+        inteiro num1, num2, resultado
+        cadeia operadorAritmetico
+
+        escreva ("Digite um número: ")
+        leia (num1)
+        escreva ("Informe a operação aritmética desejada segundo o exemplo abaixo:\nSOMA; +\nSUBTRAÇÃO: -\nMULTIPLICAÇÃO: * \nDIVISÃO: / \n")
+        leia (operadorAritmetico)
+        escreva ("Digite outro número: ")
+        leia (num2)
+
+          se (operadorAritmetico == "+")
+          {
+              resultado = num1 + num2
+            escreva (num1, " ", operadorAritmetico, " ", num2, " = ", resultado)
+          }
+          senao se (operadorAritmetico == "-")
+          {
+              resultado = num1 - num2
+            escreva (num1, " ", operadorAritmetico, " ", num2, " = ", resultado)
+          }
+          senao se (operadorAritmetico == "*")
+          {
+              resultado = num1 * num2
+            escreva (num1, " ", operadorAritmetico, " ", num2, " = ",resultado)
+          }
+          senao se (operadorAritmetico == "/")
+          {
+              resultado = num1 / num2
+            escreva (num1, " ", operadorAritmetico, " ", num2, " = ", resultado)
+          }
+        
+    }
+}

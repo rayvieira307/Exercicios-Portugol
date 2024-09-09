@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{  
+		inteiro num, valor=1, divisores=0
+		
+		escreva("Escreva um numero: ")
+		leia (num)
+
+		se (num > 0) {
+		enquanto(valor <= num){
+		     se (num % valor == 0 ){
+		 	   divisores++
+		 	}
+		 	   valor++
+			
+			}
+		     se (divisores == 2){
+			   escreva ("O número ", num, " é primo!!")}
+		     senao {
+			   escreva ("O número ", num, " não é primo!!")}
+			}
+	
+	     senao {
+	     	escreva ("Esse número é negativo ou zero!!")
+	     	}
+	
+		
+	}
+}

@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+          inteiro numero, mod, contador = 0, soma = 0
+
+		escreva("Digite um número: ")
+		leia (numero)
+		
+         enquanto (numero > 0) 
+         {
+          	   	
+         mod =numero % 10
+         numero = numero/10
+         soma = soma + mod 
+         contador = contador + 1 	
+          }
+	escreva ("O numero de digitos é: ",contador, "\n")
+	escreva ("Soma dos digitos é: ",soma)
+	}
+}

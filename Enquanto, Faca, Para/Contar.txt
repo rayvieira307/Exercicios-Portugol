@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{ 
+	     inteiro n, i=0
+	     
+		escreva("Digite o numero que vc quer que se repita\n")
+		leia(n)
+		
+	enquanto (i<=n){
+           i++
+		 escreva ("\nNumero:" + i)
+		
+		}
+	}
+}

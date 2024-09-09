@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador = 0
+		
+		escreva("Enquanto!")
+		enquanto(contador < 5)
+		{
+			escreva("\n",contador)
+			contador++
+		}
+
+		contador = 0
+		escreva("\n\nFaca Enquanto!")	
+		faca
+		{
+			escreva("\n",contador)
+			contador++
+		}enquanto(contador < 5)
+
+		escreva("\n\nPara!")
+		para(contador = 0; contador < 5; contador++)
+		{
+			escreva("\n",contador)
+		}
+		
+	}
+}

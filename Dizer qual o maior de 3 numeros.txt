@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{ 
+	     inteiro a, b, c
+	     
+		escreva("Digite um número para A, B, C: ")
+		leia (a,b,c)
+
+		se (a > b e a > c) {
+			escreva ("O maior número é: ", a)
+		}
+		senao {
+			
+		se (b > a e b > c) {
+			escreva ("O maior número é: ", b)
+			
+			}
+		senao {
+			escreva ("O maior número é: ", c)
+			}
+		}
+	}
+}
